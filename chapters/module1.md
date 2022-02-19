@@ -1,18 +1,18 @@
 ---
 title: 'Module 1: Intro to Python and Jupyter Notebooks'
 description:
-  'In this module, you will learn how to write basic Python code 
+  'In this module, you will learn how to write basic Python code
   and how to use your Jupyter Notebooks.'
 prev: null
 next: /module2
 type: chapter
 id: 1
 ---
-<exercise id="1" title="Why Python?">
+<exercise id="1" title="Why Python and Pyleoclim?">
 
-You might be wondering why you should be learning Python. 
+You might be wondering why you should be learning Python.
 
-Python is widely used in the scientific community and it is a great tool to help you further advance your geosciences research. 
+Python is widely used in the scientific community and it is a great tool to help you further advance your geosciences research.
 
 We will present you with the most important reasons to start using Python in the following [link](https://foundations.projectpythia.org/foundations/why-python.html).
 
@@ -32,9 +32,11 @@ Be patient - it might take a few minutes the first time you run the code. But it
 **Sandbox**
 
 This space can be used as a little sandbox for you.
-To try it out, click on the "run" button to execute the following chunk of code. 
+To try it out, click on the "run" button to execute the following chunk of code.
 
 <codeblock id="01_01">
+
+This is a hint
 
 </codeblock>
 
@@ -44,14 +46,15 @@ If you would like to see how any code from the previous reading works, feel free
 This Binder does not remember what happened in the past.  
 
 If you copy code, for example:  
-```if n > 2:
+```
+if n > 2:
     print("n is greater than 2!")
 else:
     print("n is not greater than 2!")
 ```
 it will throw an error - `n is not defined`
 
-This is because it has forgotten who `n` is. Simply add who `n` 
+This is because it has forgotten who `n` is. Simply add who `n`
 is at the beginning of your code, i.e.
 ```
 n = 0
@@ -84,10 +87,10 @@ Then, read this [link](https://foundations.projectpythia.org/foundations/jupyter
 NumPy is the fundamental package for scientific computing in Python.   
 It is a Python library that provides a multidimensional array object,  
 various derived objects (such as masked arrays and matrices), and an  
-assortment of routines for fast operations on arrays, including 
+assortment of routines for fast operations on arrays, including
 mathematical, logical, shape manipulation, sorting, selecting, I/O,  
 discrete Fourier transforms, basic linear algebra, basic statistical  
-operations, random simulation, and much more. 
+operations, random simulation, and much more.
 - NumPy Documentation
 ~~~
 
@@ -113,7 +116,7 @@ else:
 ```
 it will throw an error - `n is not defined`
 
-This is because it has forgotten who `n` is. Simply add who `n` 
+This is because it has forgotten who `n` is. Simply add who `n`
 is at the beginning of your code, i.e.
 ```
 n = 0
@@ -130,7 +133,7 @@ else:
 <exercise id="5" title="Introduction to Matplotlib">
 
 ~~~
-Matplotlib is a comprehensive library for creating static, animated, and 
+Matplotlib is a comprehensive library for creating static, animated, and
 interactive visualizations in Python.
 - Matplotlib documentation
 ~~~
@@ -158,7 +161,7 @@ else:
 ```
 it will throw an error - `n is not defined`
 
-This is because it has forgotten who `n` is. Simply add who `n` 
+This is because it has forgotten who `n` is. Simply add who `n`
 is at the beginning of your code, i.e.
 ```
 n = 0
@@ -176,15 +179,15 @@ else:
 <exercise id="6" title="Introduction to Cartopy">
 
 ~~~
-Cartopy is a Python package designed for geospatial data processing in order 
+Cartopy is a Python package designed for geospatial data processing in order
 to produce maps and other geospatial data analyses.
 
-Cartopy makes use of the powerful PROJ.4, NumPy and Shapely libraries and 
-includes a programmatic interface built on top of Matplotlib for the creation of 
+Cartopy makes use of the powerful PROJ.4, NumPy and Shapely libraries and
+includes a programmatic interface built on top of Matplotlib for the creation of
 publication quality maps.
 
-Key features of Cartopy are its object-oriented projection definitions, and its 
-ability to transform points, lines, vectors, polygons and images between those 
+Key features of Cartopy are its object-oriented projection definitions, and its
+ability to transform points, lines, vectors, polygons and images between those
 projections.
 - Cartopy documentation
 ~~~
@@ -209,7 +212,7 @@ else:
 ```
 it will throw an error - `n is not defined`
 
-This is because it has forgotten who `n` is. Simply add who `n` 
+This is because it has forgotten who `n` is. Simply add who `n`
 is at the beginning of your code, i.e.
 ```
 n = 0

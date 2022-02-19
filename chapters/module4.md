@@ -47,11 +47,11 @@ A Binder helps the useres run the code without having to figure out all the depe
 </opt>
 </choice>
 
-True or False? 
+True or False?
 
 <choice id="2">
 <opt text= "Sharing a Binder repository with another user is complicated" >
- 
+
 You only need to give them a link and they will be able to run your code.
 
 </opt>
@@ -101,7 +101,7 @@ True or False? Select the answers that are True.
 
 <choice id="2">
 <opt text= "Binder mimics human behaviour in how we clone our repositories." correct="true">
- 
+
 That's right! The process a Binder goes through is similar to what you would do when cloning a repo, looking for configuration files, install the dependencies and start a Jupyter Notebook / RStudio session.
 
 </opt>

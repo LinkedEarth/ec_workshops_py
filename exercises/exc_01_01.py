@@ -1,1 +1,1 @@
-print("Let's do Geoscience with Python!")
+print("Let's do paleoclimate with Python!")
