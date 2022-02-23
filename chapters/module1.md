@@ -1,14 +1,13 @@
 ---
-title: 'Module 1: Intro to Python and Jupyter Notebooks'
+title: 'Module 1: Intro to Python'
 description:
-  'In this module, you will learn how to write basic Python code
-  and how to use your Jupyter Notebooks.'
+  'In this module, you will learn how to write basic Python code.'
 prev: null
 next: /module2
 type: chapter
 id: 1
 ---
-<exercise id="1" title="Why Python and Pyleoclim?">
+<exercise id="1" title="Why Python?">
 
 You might be wondering why you should be learning Python.
 
@@ -23,218 +22,61 @@ We will present you with the most important reasons to start using Python in the
 
 Now that you know why you should be learning Python, let's get started!
 
-Read the [Quickstart zero to Python](https://foundations.projectpythia.org/foundations/quickstart.html) article.
+Read the [Quickstart zero to Python](https://foundations.projectpythia.org/foundations/quickstart.html) article and try to run the code using Binder (tip: make sure you open the Binder link under the "Rocket Ship" in another window).
 
-It is always more fun to run the code by yourself. Try it out in the following cells.
+Once you are done with the tutorials, complete the exercises below to test your understanding!
 
 Be patient - it might take a few minutes the first time you run the code. But it usually speeds up.
 
-**Sandbox**
+**Question:**
 
-This space can be used as a little sandbox for you.
-To try it out, click on the "run" button to execute the following chunk of code.
+1. Print "I love doing paleoclimate research with Python" on the console.
 
 <codeblock id="01_01">
 
-This is a hint
+Remember the print command!
 
 </codeblock>
 
-If you would like to see how any code from the previous reading works, feel free to copy, paste and run it in the following code chunk box:
+</exercise>
+<exercise id="3" title = "Playing with lists">
+
+**Question:**
+
+1. Create a list with the following archives: `Marine Sediment`, `Coral`, `Ice`, `Wood`
+2. Loop over the list to print: "I study paleoclimate using " [archive]
 
 <codeblock id="01_02">
-This Binder does not remember what happened in the past.  
+You can create a string by attaching two strings together by using `+`.
 
-If you copy code, for example:  
-```
-if n > 2:
-    print("n is greater than 2!")
-else:
-    print("n is not greater than 2!")
-```
-it will throw an error - `n is not defined`
+For instance,
 
-This is because it has forgotten who `n` is. Simply add who `n`
-is at the beginning of your code, i.e.
 ```
-n = 0
-if n > 2:
-    print("n is greater than 2!")
-else:
-    print("n is not greater than 2!")
+str1 = "I love Python"
+str2 = " and I can't wait to use it in paleoclimate research"
+
+str = str1 + str2
 ```
+
+str is now "I love Python and I can't wait to use it in paleoclimate research"
 
 </codeblock>
-
-
-
 </exercise>
 
-
-<exercise id="3" title="Getting Started with Jupyter">
-
-Read the following [article](https://foundations.projectpythia.org/foundations/getting-started-jupyter.html) to know more about what Jupyter is.
-
-
-Then, read this [link](https://foundations.projectpythia.org/foundations/jupyterlab.html) to learn particularly about JupyterLab. Follow the exercises on an extra tab/window using the provided [Binder](https://mybinder.org/v2/gh/ProjectPythia/pythia-foundations/main?urlpath=lab/tree/foundations/jupyterlab.ipynb)
-
 </exercise>
+<exercise id="4" title = "Playing with dictionaries">
 
+**Question:**
 
-<exercise id="4" title="Introduction to NumPy">
+1. Create a dictionary called `dataset1`, that have the following keys: `archiveType`, `geo`, `data`.
+2. Set the value for archiveType to `marinesediment`
+3. Set the value for `geo` to another dictionary with keys `lat` and `lon`. The `lat` value is `-5` and the `lon` value is `140`
+4. Set the value for `data` to a dictionary with keys `values` (set to a list of `[1,2,3]`) and `units` (set to `N/A`)
+5. Return the value of the latitude information into a new variable called `latitude`
 
-~~~
-NumPy is the fundamental package for scientific computing in Python.   
-It is a Python library that provides a multidimensional array object,  
-various derived objects (such as masked arrays and matrices), and an  
-assortment of routines for fast operations on arrays, including
-mathematical, logical, shape manipulation, sorting, selecting, I/O,  
-discrete Fourier transforms, basic linear algebra, basic statistical  
-operations, random simulation, and much more.
-- NumPy Documentation
-~~~
+<codeblock id="01_03">
 
-This section contains Project Pythia's tutorials on array computing with NumPy.  
-We recommend using the provided Binder link to run the code.
-
-[NumPy Basics](https://foundations.projectpythia.org/core/numpy/numpy-basics.html)  
-[NumPy Basics Binder](https://mybinder.org/v2/gh/ProjectPythia/pythia-foundations/main?urlpath=lab/tree/core/numpy/numpy-basics.ipynb)
-
-[Intermediate NumPy](https://foundations.projectpythia.org/core/numpy/intermediate-numpy.html)  
-[Intermediate NumPy Binder](https://mybinder.org/v2/gh/ProjectPythia/pythia-foundations/main?urlpath=lab/tree/core/numpy/intermediate-numpy.ipynb)
-
-Here is a Sandbox for you to apply what you learned.
-
-<codeblock id="01_02">
-This Binder does not remember what happened in the past.  
-
-If you copy code, for example:  
-```if n > 2:
-    print("n is greater than 2!")
-else:
-    print("n is not greater than 2!")
-```
-it will throw an error - `n is not defined`
-
-This is because it has forgotten who `n` is. Simply add who `n`
-is at the beginning of your code, i.e.
-```
-n = 0
-if n > 2:
-    print("n is greater than 2!")
-else:
-    print("n is not greater than 2!")
-```
+When using nested dictionaries, you can access the value in the nested dictionary by chaining the keys.
 
 </codeblock>
-
-</exercise>
-
-<exercise id="5" title="Introduction to Matplotlib">
-
-~~~
-Matplotlib is a comprehensive library for creating static, animated, and
-interactive visualizations in Python.
-- Matplotlib documentation
-~~~
-
-Matplotlib is the go-to library for plotting within Python.
-If you were to learn a single plotting tool to keep in your toolbox, this is the package.
-
-The key feature to Matplotlib is its extensibility and the extensive documentation available to the community.
-
-Check out Project Pythia's tutorials on Matplotlib!
-
-[Matplotlib Basics](https://foundations.projectpythia.org/core/matplotlib/matplotlib.html)  
-[Matplotlib Basics Binder](https://mybinder.org/v2/gh/ProjectPythia/pythia-foundations/main?urlpath=lab/tree/core/matplotlib/matplotlib.ipynb)
-
-Here is a Sandbox for you to apply what you learned.
-
-<codeblock id="01_02">
-This Binder does not remember what happened in the past.  
-
-If you copy code, for example:  
-```if n > 2:
-    print("n is greater than 2!")
-else:
-    print("n is not greater than 2!")
-```
-it will throw an error - `n is not defined`
-
-This is because it has forgotten who `n` is. Simply add who `n`
-is at the beginning of your code, i.e.
-```
-n = 0
-if n > 2:
-    print("n is greater than 2!")
-else:
-    print("n is not greater than 2!")
-```
-
-</codeblock>
-
-</exercise>
-
-
-<exercise id="6" title="Introduction to Cartopy">
-
-~~~
-Cartopy is a Python package designed for geospatial data processing in order
-to produce maps and other geospatial data analyses.
-
-Cartopy makes use of the powerful PROJ.4, NumPy and Shapely libraries and
-includes a programmatic interface built on top of Matplotlib for the creation of
-publication quality maps.
-
-Key features of Cartopy are its object-oriented projection definitions, and its
-ability to transform points, lines, vectors, polygons and images between those
-projections.
-- Cartopy documentation
-~~~
-
-Before doing the tutorials, make sure that you already have a basic familiarity with Matplotlib.
-
-Cartopy’s cartographic features library includes shapefiles directly served by Natural Earth.
-
-[Introduction to Cartopy](https://foundations.projectpythia.org/core/cartopy/cartopy.html)  
-[Introduction to Cartopy Binder](https://mybinder.org/v2/gh/ProjectPythia/pythia-foundations/main?urlpath=lab/tree/core/cartopy/cartopy.ipynb)
-
-Here is a Sandbox for you to apply what you learned.
-
-<codeblock id="01_02">
-This Binder does not remember what happened in the past.  
-
-If you copy code, for example:  
-```if n > 2:
-    print("n is greater than 2!")
-else:
-    print("n is not greater than 2!")
-```
-it will throw an error - `n is not defined`
-
-This is because it has forgotten who `n` is. Simply add who `n`
-is at the beginning of your code, i.e.
-```
-n = 0
-if n > 2:
-    print("n is greater than 2!")
-else:
-    print("n is not greater than 2!")
-```
-
-</codeblock>
-
-</exercise>
-
-<exercise id="7" title="Introduction to Pandas">
-
-Pandas is a very powerful library for working with tabular data (i.e. anything you might put in a spreadsheet – a common data type in the geosciences). It allows us to use labels for our data so that we can write expressive and robust code to manipulate the data.
-
-Key features of Pandas are the ability to read in tabular data, slice and dice data, and exploratory analysis tools native to the library.
-
-Follow this Project Pythia tutorial on Pandas.
-
-[Introduction to Pandas](https://foundations.projectpythia.org/core/pandas/pandas.html)  
-[Introduction to Pandas Binder](https://mybinder.org/v2/gh/ProjectPythia/pythia-foundations/main?urlpath=lab/tree/core/pandas/pandas.ipynb)
-
 </exercise>

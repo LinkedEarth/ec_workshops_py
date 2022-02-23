@@ -1,11 +1,10 @@
-import json
+# Create the dictionary
 
-# This code will run relative to the root of the repo, so we can load files
-with open("exercises/bookquotes.json") as f:
-    DATA = json.loads(f.read())
+dataset1 = {
+            "archiveType":_____,
+            _____________,
+            }
 
-# Print the first record in the DATA
-print(___[____])
+# return latitude into a variable
 
-# Assign the length of DATA to some_var
-some_var = ___
+latitude = _________
