@@ -1,11 +1,11 @@
 ---
-title: 'Module 9: Development best-practices including FAIR data principles'
+title: 'Module 8: Development best-practices including FAIR data principles'
 description:
   'This module will teach you different aspects in regards to Data Workflows, handling filenames and best practices such as testing, continuous integration and licensing.'
-prev: /module8
+prev: /module7
 next: null
 type: chapter
-id: 9
+id: 8
 ---
 
 <exercise id="0" title="Learning Outcomes" type="slides">

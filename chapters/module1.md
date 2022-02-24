@@ -1,5 +1,5 @@
 ---
-title: 'Module 1: Intro to Python'
+title: 'Module 1: Introduction to Python'
 description:
   'In this module, you will learn how to write basic Python code.'
 prev: null

@@ -1,7 +1,7 @@
 ---
-title: 'Module 2: Setting up your working environment with conda'
+title: 'Module 2: Introduction to Jupyter'
 description:
-  'This module will teach you how to organize your environments using conda'
+  'This module will teach you how to use Jupyter'
 prev: /module1
 next: /module3
 type: chapter
@@ -9,10 +9,11 @@ id: 2
 ---
 
 
-<exercise id="1" title="Getting Started with Conda">
+<exercise id="3" title="Getting Started with Jupyter">
 
-Learn how to set up your environment with Conda.
+Read the following [article](https://foundations.projectpythia.org/foundations/getting-started-jupyter.html) to know more about what Jupyter is.
 
-Read the following [tutorial](https://foundations.projectpythia.org/foundations/conda.html) to get started.
+
+Then, read this [link](https://foundations.projectpythia.org/foundations/jupyterlab.html) to learn particularly about JupyterLab. Follow the exercises on an extra tab/window using the provided [Binder](https://mybinder.org/v2/gh/ProjectPythia/pythia-foundations/main?urlpath=lab/tree/foundations/jupyterlab.ipynb)
 
 </exercise>
