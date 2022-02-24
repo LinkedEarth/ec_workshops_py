@@ -80,3 +80,31 @@ When using nested dictionaries, you can access the value in the nested dictionar
 
 </codeblock>
 </exercise>
+
+<exercise id="5" title = "Basic introduction to NumPy">
+
+~~~
+NumPy is the fundamental package for scientific computing in Python.
+It is a Python library that provides a multidimensional array object,
+various derived objects (such as masked arrays and matrices), and an
+assortment of routines for fast operations on arrays, including
+mathematical, logical, shape manipulation, sorting, selecting, I/O,
+discrete Fourier transforms, basic linear algebra, basic statistical
+operations, random simulation, and much more.
+- NumPy Documentation
+~~~
+
+Pyleoclim makes extensive use of NumPy for its functionalities. If you need to dig more into the code, you will need to understand the basics of NumPy arrays. Module 4 will dig more into all its functionalities.
+
+**Question:**
+
+1. Create a NumPy array that starts at 0, ends at 1000, with 1001 points and save it into a variable called `time`
+2. What is the value of time at index 20? Return this value into the variable `time_index`
+
+<codeblock id="01_04">
+
+1-D NumPy arrays can be indexed the same way as lists.
+
+</codeblock>
+
+</exercise>
