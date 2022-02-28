@@ -8,6 +8,6 @@ def test():
 
     # If an assertion fails, the message will be displayed
     assert time == np.linspace(0,1000,1001), 'Time is not set properly'
-    assert time_index = time[20], 'Wrong index'
+    assert time_index == time[20], 'Wrong index'
 
     __msg__.good("Well done!")

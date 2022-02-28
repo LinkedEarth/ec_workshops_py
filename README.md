@@ -22,9 +22,9 @@ Any official communication for this project will be done using Github Issues.
 
 All products are licensed under an [MIT License](LICENSE) unless otherwise noted.
 
-## Setting Up Your Own Course 
+## Setting Up Your Own Course
 
-This course is based on Ines Montani's Spacy course. 
+This course is based on Ines Montani's Spacy course.
 
 Quickstart instructions can be found [here](https://github.com/ines/course-starter-python#:~:text=%E2%9C%85-,Quickstart,-Import%20this%20repo)
 
@@ -86,7 +86,7 @@ brew link node@10
 You may also be prompted to specify that you need to have node@10 first in your PATH so you should run the command below before attempting force linking node@10 (the command above) again:
 
 ```
-echo 'export PATH="/usr/local/opt/node@10/bin:$PATH"' >> ~/.bash_profile 
+echo 'export PATH="/usr/local/opt/node@10/bin:$PATH"' >> ~/.bash_profile
 ```
 
 
@@ -124,7 +124,7 @@ npm install -g gatsby-cli
 
 5. In order to run on local server, we must install all relevant dependencies by running the following:
 ```
-npm install 
+npm install
 ```
 **Warning:** You will be prompted to run "npm audit fix" to fix them.
 I do not recommend doing this as it may burn your site down.
@@ -162,13 +162,13 @@ Get familiarized with the following repository architecture as you will need to 
 
 ```out
 ec_workshops_py
-├── .gitignore          # Files you change on your local that you do not want to commit to the repo. 
-├── LICENSE             # Terms able to use this platform 
-├── README.md           # Documentation and Description 
+├── .gitignore          # Files you change on your local that you do not want to commit to the repo.
+├── LICENSE             # Terms able to use this platform
+├── README.md           # Documentation and Description
 ├── gatsby-browser.js    
 ├── gatsby-config.js    
 ├── gatsby-node.js      
-├── meta.json           # * Add bio descriptions and branch needed to make binder from 
+├── meta.json           # * Add bio descriptions and branch needed to make binder from
 ├── package-lock.json
 ├── package.json        # * Customizable regarding your application
 ├── theme.sass          # * Customize fonts style and size and website colours
@@ -181,18 +181,18 @@ ec_workshops_py
 |   ├── ...
 |   └── chapter7.md
 │   │
-├── exercises           # This file will contain all the coding exercise scripts. 
+├── exercises           # This file will contain all the coding exercise scripts.
 |   ├── exercise_01.py
 |   └── solution_01.py
 │   │
-├── data                # Store exercise datafiles here 
+├── data                # Store exercise datafiles here
     └── exercise-data.csv
 ├── slides              # This is where the slide decks are
 |   ├── module0_00.md
 |   ├── ...
 |   └── moduleN_nn.md
 │   │
-├── src                 # Don't want to go too much into this 
+├── src                 # Don't want to go too much into this
 |   ├── markdown.js
 |   ├── context.js
 |   ├── components              
@@ -228,7 +228,7 @@ ec_workshops_py
 |   └── templates              
 |   |   └── chapter.js
 |   |   |
-└── static               # Media files for bio and main page. 
+└── static               # Media files for bio and main page.
     ├── icon.png
     ├── icon_check.svg
     ├── icon_slides.svg

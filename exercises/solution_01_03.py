@@ -6,6 +6,9 @@ dataset1 = {
             "data":{"values":[1,2,3],"units":"N/A"}
             }
 
+print(dataset1)
 # return latitude into a variable
 
 latitude = dataset1["geo"]["lat"]
+
+print(latitude)

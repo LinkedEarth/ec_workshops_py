@@ -22,7 +22,11 @@ We will present you with the most important reasons to start using Python in the
 
 Now that you know why you should be learning Python, let's get started!
 
-Read the [Quickstart zero to Python](https://foundations.projectpythia.org/foundations/quickstart.html) article and try to run the code using Binder (tip: make sure you open the Binder link under the "Rocket Ship" in another window).
+Read the [Quickstart zero to Python](https://foundations.projectpythia.org/foundations/quickstart.html) article and try to run the code using Binder.
+
+*Tip*: Make sure you open the Binder link under the "Rocket Ship" in another window. This may take a while to build so you may want to have it run in the background while you read the article).
+
+But what exactly is Binder? 
 
 Once you are done with the tutorials, complete the exercises below to test your understanding!
 

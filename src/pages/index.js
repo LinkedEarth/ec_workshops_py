@@ -3,7 +3,7 @@ import { graphql } from 'gatsby'
 
 import Layout from '../components/layout'
 import { Link } from '../components/link'
-import Logo from '../../static/logo.svg'
+import Logo from '../../static/logo.png'
 
 import classes from '../styles/index.module.sass'
 
@@ -19,28 +19,22 @@ export default ({ data }) => {
             <Logo className={classes.logo} aria-label={siteMetadata.title} />
             <section>
 
-                <h1 className={classes.subtitle}><center>Welcome to EarthCube Interactive Workshops!</center></h1>
+                <h1 className={classes.subtitle}><center>Welcome to PaleoHack - Python introduction workshop</center></h1>
                 <div className={classes.introduction}>
                 <p></p>
 
                 <center>
                 <p>
-                    These short courses will teach you how to conduct reproducible 
-                    research using Data Sciences tools.  
+                    These short modules will walk you through an introduction to Python and the scientific Python stack; namely, <a href="https://numpy.org">NumPy</a>, <a href="https://pandas.pydata.org">Pandas</a>,<a href="https://matplotlib.org">Matplotlib</a>, and <a href="https://scitools.org.uk/cartopy/docs/latest/"> Cartopy</a>. These packages form the foundation upon which <a href="https://pyleoclim-util.readthedocs.io/en/master/">Pyleoclim</a> is built.
 
-                    You will be working with Python, Jupyter, Docker containerization,
-                    and Git for version control.  
+                    The last two modules refer to the use of GitHub and FAIR principles.
 
                 </p>
                 <p>
-                    After these modules, you will be able to process your own research
-                    in a format suitable for analysis, writing your own analysis functions,
-                    and deriving data-driven insights via Jupyter Notebooks and RMarkdown files.
+                    After these modules, you will be able to use Python more effectively for your research and work with Pyleoclim more efficiently. Remember that Pyleoclim is built upon these tools, so learning to make a plot in Matplotlib, for instance, will give you a better idea of how Pyleoclim works under the hood and how you can modify your plots.
                 </p>
                 <p>
                     This page runs on a python3 kernel.
-                    To visit the R kernel version, click <a href="https://throughput-ec.github.io/ec-workshops/" target="_blank" >here</a>.
-
                 </p>
                 </center>
                 </div>
