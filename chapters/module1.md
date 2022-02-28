@@ -1,7 +1,7 @@
 ---
 title: 'Module 1: Introduction to Python'
 description:
-  'In this module, you will learn how to write basic Python code.'
+  'In this module, you will learn how to write basic Python code. Make sure that you go through the material provided by Project Pythia before attempting the exercises. Note that the first time you build the Binder, this may take some time. Also do not navigate away from the code block (e.g., by opening another exercise) as this will stop the execution.'
 prev: null
 next: /module2
 type: chapter
@@ -26,7 +26,7 @@ Read the [Quickstart zero to Python](https://foundations.projectpythia.org/found
 
 *Tip*: Make sure you open the Binder link under the "Rocket Ship" in another window. This may take a while to build so you may want to have it run in the background while you read the article).
 
-But what exactly is Binder? 
+But what exactly is Binder? Binder allows you to run code in a pre-defined environment without installing anything on your computer. The environment is installed on the Binder servers. One of the features of Binder is that it has no memory. So once you close your Binder session, none of the variables or files you download on the server will be there. Remember this as you work through the exercises. Each block of code launches a different Binder. Therefore, if you create a variable in Exercise 3, it's not available in Exercise 4 unless you create it again.
 
 Once you are done with the tutorials, complete the exercises below to test your understanding!
 
@@ -46,6 +46,8 @@ Remember the print command!
 <exercise id="3" title = "Playing with lists">
 
 **Question:**
+
+Lists are one of the basic elements in Python and allows you to build more sophisticated objects. Pyleoclim does rely on this structure for some of its functionalities. Lists are also a great way to loop through information.
 
 1. Create a list with the following archives: `Marine Sediment`, `Coral`, `Ice`, `Wood`
 2. Loop over the list to print: "I study paleoclimate using " [archive]
@@ -70,6 +72,8 @@ str is now "I love Python and I can't wait to use it in paleoclimate research"
 </exercise>
 <exercise id="4" title = "Playing with dictionaries">
 
+Ever wondered to LiPD files when you open them in Python? They become dictionaries. In fact, all objects can be exported to dictionaries to allow for faster exploring. In the following questions, we will ask you to create a small version of a LiPD-like structure (in the sense that it will have information about location and data). LiPD is more complex but the principles still apply.
+
 **Question:**
 
 1. Create a dictionary called `dataset1`, that have the following keys: `archiveType`, `geo`, `data`.
@@ -83,9 +87,16 @@ str is now "I love Python and I can't wait to use it in paleoclimate research"
 When using nested dictionaries, you can access the value in the nested dictionary by chaining the keys.
 
 </codeblock>
+
+What happens if you don't know which keys are available to you? You can print it out as follows:
+
+<codeblock id="01_04">
+
+</codeblock>
+
 </exercise>
 
-<exercise id="5" title = "Basic introduction to NumPy">
+<exercise id="6" title = "Basic introduction to NumPy">
 
 ~~~
 NumPy is the fundamental package for scientific computing in Python.
@@ -105,7 +116,7 @@ Pyleoclim makes extensive use of NumPy for its functionalities. If you need to d
 1. Create a NumPy array that starts at 0, ends at 1000, with 1001 points and save it into a variable called `time`
 2. What is the value of time at index 20? Return this value into the variable `time_index`
 
-<codeblock id="01_04">
+<codeblock id="01_05">
 
 1-D NumPy arrays can be indexed the same way as lists.
 

@@ -1,4 +1,8 @@
-import ________ as np
+# Create the dictionary
 
-time = np._______(__,__,__)
-time_index = _______
+mydict = {'archiveType':'coral',
+        'Publication':{'author':'J. Doe','title':'The most important record'}}
+
+#print the keys
+
+mydict.keys()

@@ -1,18 +1,16 @@
 ---
 title: 'Module 3: Introduction to NumPy'
 description:
-  'This module will teach you about NumPy.'
+  'This module will teach you about NumPy. NumPy is the most basic structure for Pyleoclim. Virtually, all the operations made on the data involved NumPy arrays.'
 prev: /module2
 next: /module4
 type: chapter
 id: 3
 ---
 
-<exercise id="4" title="Introduction to NumPy">
+<exercise id="1" title="Introduction to NumPy">
 
-
-This section contains Project Pythia's tutorials on array computing with NumPy.
-We recommend using the provided Binder link to run the code.
+Let's start with the basics from Project Pythia. We recommend that you use the provided Binder link to follow along the article.
 
 [NumPy Basics](https://foundations.projectpythia.org/core/numpy/numpy-basics.html)
 [NumPy Basics Binder](https://mybinder.org/v2/gh/ProjectPythia/pythia-foundations/main?urlpath=lab/tree/core/numpy/numpy-basics.ipynb)
@@ -20,9 +18,8 @@ We recommend using the provided Binder link to run the code.
 [Intermediate NumPy](https://foundations.projectpythia.org/core/numpy/intermediate-numpy.html)
 [Intermediate NumPy Binder](https://mybinder.org/v2/gh/ProjectPythia/pythia-foundations/main?urlpath=lab/tree/core/numpy/intermediate-numpy.ipynb)
 
-Here is a Sandbox for you to apply what you learned.
 
-<codeblock id="01_02">
+<codeblock id="03_01">
 This Binder does not remember what happened in the past.
 
 If you copy code, for example:
@@ -46,3 +43,7 @@ else:
 </codeblock>
 
 </exercise>
+
+<exercise id="2" title="Intermediate NumPy">
+
+Now that you have the basics if NumPy, let's move on to more advanced functionalities
