@@ -4,7 +4,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import SEO from './seo'
 import { Link } from './link'
 import { H3 } from './typography'
-import Logo from '../../static/logo_ec.svg'
+import Logo from '../../static/logo.svg'
 
 import '../styles/index.sass'
 import classes from '../styles/layout.module.sass'
