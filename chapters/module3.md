@@ -81,7 +81,7 @@ If you forget how to do this, don't worry; Pyleoclim has a neat [slicing](https:
 
 Question:
 
-Another task we love to perform is wrangling age models. You can think of each age model being stored along one dimension of the a NumPy array. Therefore, it is possible to wrangle them the same way you would any other array. Let's build a fake age model, add some noise to create an ensemble and take the mean (in reality, you may only need to perform the last operation but it's good practice to play with the random generator you played with in exercise 1).
+Another task we love to perform is wrangling age models. You can think of each age model being stored along one dimension of a NumPy array. Therefore, it is possible to wrangle them the same way you would any other array. Let's build a fake age model, add some noise to create an ensemble and take the mean (in reality, you may only need to perform the last operation but it's good practice to play with the random generator you used in exercise 1).
 
 1. Create a time vector between 0 and 10000 in 100 years increments
 2. Use a seed of 30 to initialize the random generator
