@@ -5,6 +5,8 @@ dependencies:
   - python
   - numpy
   - pip
+  - seaborn
+  - cartopy
   - pip:
     - pandas
     - matplotlib
