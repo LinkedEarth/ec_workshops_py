@@ -1,12 +1,12 @@
 {
-    "name": "ec_workshops_py",
+    "name": "PyleoHack",
     "private": true,
-    "description": "Earthcube workshops regarding DS tools",
+    "description": "Materials for a gentle introduction to Python",
     "version": "0.0.1",
-    "homepage": "https://throughput-ec.github.io/ec_workshops_py",
+    "homepage": "https://LinkedEarth.github.io/ec_workshops_py",
     "author": {
-        "name": "Socorro Dominguez",
-        "email": "sedv8808@gmail.com"
+        "name": "Deborah Khider",
+        "email": "khider@usc.edu"
     },
     "license": "MIT",
     "dependencies": {
@@ -58,7 +58,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://throughput-ec.github.io/ec_workshops_py/"
+        "url": "https://LinkedEarth.github.io/ec_workshops_py/"
     },
-    "bugs": "https://throughput-ec.github.io/ec_workshops_py/issues"
+    "bugs": "https://LinkedEarth.github.io/ec_workshops_py/issues"
 }
