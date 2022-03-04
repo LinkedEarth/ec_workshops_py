@@ -25,6 +25,6 @@ jobs:
         run: npm install gh-pages -g
       - name: Build
         env:
-          TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          TOKEN: ${{ secrets.token_secret_deploy }}
         run: |
-          gatsby build --prefix-paths && gh-pages -d public -r https://git:$TOKEN@github.com/throughput-ec/ec_workshops_py.git
+          gatsby build --prefix-paths && gh-pages -d public -r https://git:$TOKEN@github.com/LinkedEarth/ec_workshops_py.git
