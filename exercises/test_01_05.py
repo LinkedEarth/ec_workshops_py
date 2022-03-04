@@ -7,7 +7,7 @@ def test():
     # in the meta.json for details.
 
     # If an assertion fails, the message will be displayed
-    assert time == np.linspace(0,1000,1001), 'Time is not set properly'
+    np.testing.assert_allclose(time, np.linspace(0,1000,1001),err_msg='incorrect time vector')
     assert time_index == time[20], 'Wrong index'
 
     __msg__.good("Well done!")
