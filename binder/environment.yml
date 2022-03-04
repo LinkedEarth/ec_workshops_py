@@ -5,6 +5,8 @@ channels:
 dependencies:
   - python
   - numpy
+  - seaborn
+  - cartopy
   - pip
   - pip:
     - pandas
