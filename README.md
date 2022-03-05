@@ -5,7 +5,7 @@
 
 ## Objective
 
-Set up online workshops regarding Data Sciences tools focused on the Earth Sciences for TACC Hackathons. These modules are currently deployed at [site](https://throughput-ec.github.io/ec_workshops_py/)
+Set up online workshops regarding Data Sciences tools focused on the Earth Sciences for TACC Hackathons. These modules are currently deployed at [site](https://linked.earth/ec_workshops_py/)
 
 ## Contributors
 
