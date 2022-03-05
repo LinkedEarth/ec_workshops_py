@@ -157,6 +157,14 @@ This should be the beginning of a functioning starter-course!
 
 Now that you have a website that is deploying on your local server, we can now begin the steps to customize it to your own taste.
 
+### Release the docs
+
+Build the website locally for GitHub release:
+
+```
+npm run build  
+```
+
 ## Files and directory structure in the repository are as follows:
 Get familiarized with the following repository architecture as you will need to work with some of the files pointed out here to do your customizations.
 
