@@ -5,7 +5,7 @@
 
 ## Objective
 
-Set up online workshops regarding Data Sciences tools focused on the Earth Sciences for TACC Hackathons. These modules are currently deployed at [site](https://throughput-ec.github.io/ec_workshops_py/)
+Set up online workshops regarding Data Sciences tools focused on the Earth Sciences for TACC Hackathons. These modules are currently deployed at [site](https://linked.earth/ec_workshops_py/)
 
 ## Contributors
 
@@ -156,6 +156,14 @@ Quick link: http://localhost:8000/
 This should be the beginning of a functioning starter-course!
 
 Now that you have a website that is deploying on your local server, we can now begin the steps to customize it to your own taste.
+
+### Release the docs
+
+Build the website locally for GitHub release:
+
+```
+npm run build  
+```
 
 ## Files and directory structure in the repository are as follows:
 Get familiarized with the following repository architecture as you will need to work with some of the files pointed out here to do your customizations.
