@@ -1,7 +1,7 @@
 ---
 title: 'Module 3: Introduction to NumPy'
 description:
-  'This module will teach you about NumPy. NumPy is the most basic structure for Pyleoclim. Virtually, all the operations made on the data involved NumPy arrays.'
+  'This module will teach you about NumPy. NumPy arrays are the most basic data structure for Pyleoclim, underlying all the other packages. Virtually all operations made on the data involve NumPy arrays, so it is important to understand a bit about how they work.'
 prev: /module2
 next: /module4
 type: chapter
@@ -10,7 +10,9 @@ id: 3
 
 <exercise id="1" title="Introduction to NumPy">
 
-Let's start with the basics from Project Pythia. We recommend that you use the provided Binder link to follow along the article.
+If you are new to programming, your first question might be: "What is an array?". An array is a collection of values (numbers, strings, or such), whose position in the computer's memory is such that it can be computed from its given key. Coming from the Excel world, you could regard a spreadsheet as a 2D array; a single column of that spreadsheet would be a 1D array. Arrays, however, are far more general, and can assume any dimension, which makes them great for storing large quantities of information.
+
+If you have ever programmed, you likely have encountered arrays before.  To learn about NumPy arrays, let's start with the basics from Project Pythia. We recommend that you use the provided Binder link to follow along the article.
 
 [NumPy Basics](https://foundations.projectpythia.org/core/numpy/numpy-basics.html)
 
@@ -27,9 +29,9 @@ Let's start by creating a perfect series:
 2. Create a sinusoidal signal corresponding to the time vector with a periodicity of 20 years.
 
 <codeblock id="03_01">
-To create a sin wave, look whether numpy as a functionality to do so in [their documentation](https://numpy.org/doc/stable/index.html).
+To create a sine wave, look whether numpy has a functionality to do so in [their documentation](https://numpy.org/doc/stable/index.html).
 
-The mathematical formula is: sin(2 * pi * freq * time)
+The mathematical formula is: sin(2 pi * freq * time)
 
 </codeblock>
 
