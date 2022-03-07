@@ -6,7 +6,6 @@ url = 'https://raw.githubusercontent.com/LinkedEarth/Pyleoclim_util/master/examp
 df = pd.read_csv(url,skiprows=0) 
 t = df['t'] # time in fractional years
 nino3 = df['nino'] # NINO3 data
-air  =  df['air'] # All India Rainfall
  
 
 fig, ax = plt.subplots()

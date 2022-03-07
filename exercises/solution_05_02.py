@@ -8,9 +8,14 @@ t = df['t'] # time in fractional years
 nino3 = df['nino'] # NINO3 data
  
 
+# plot
 fig, ax = plt.subplots()
-ax.____(___,___)
-ax.___('NINO3 SST')
-ax.___('NINO3 (K)')
-ax.___('Year AD')
-plt.show()
+fig.patch.set_facecolor('white')
+ax.plot(t,nino3)
+ax.set_title('NINO3 SST')
+ax.set_ylabel('NINO3 (K)')
+ax.set_xlabel('Year AD')
+# remove upper and top spines
+ax.spines[['top', 'right']].set_visible(False)
+
+plt.show() #note: this last command is unnecessary in Jupyter notebooks, where the "inline plot" option is on by default.
