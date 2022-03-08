@@ -95,19 +95,16 @@ ax[1].set_ylabel('AIR (mm/month)')
 ax[1].set_xlabel('Year AD')
 ```
 
-In this case, we told the `figure` command that the two plots had a common x axis, to remove some redundancy. If you're curious, try removing that and see what it does.
+Notice that we used `sharex = True` to tell the `figure` command that the two subplots had a common x axis, to remove some redundancy. If you're curious, try removing that and see what it does.
 
 Now we want to customize the appearance of the plot a bit more:
 - look up the [documentation](https://matplotlib.org/stable/gallery/text_labels_and_annotations/text_fontdict.html#sphx-glr-gallery-text-labels-and-annotations-text-fontdict-py) to see how to make the font bold and set its size to 18.
-- change the font of the y-axes labels to 'Comic Sans MS'.
+- change the font of the y-axes labels to 'Helvetica'.
 
 <codeblock id="05_03">
 Look up the documentation at https://matplotlib.org/stable/index.html!
 </codeblock>
 
-Doesn't it look classy?
-
-That was a joke: there are only [2 acceptable uses of Comic Sans](https://uxdesign.cc/the-ugly-history-of-comic-sans-bd5d07f8ce81): either you're 6 years old and using it to write an invitation to your birthday party, or you're a dog called "Microsoft Bob". From now on, please [pledge](https://www.comicsanscriminal.com/Comic-Sans-Criminal-Pledge.pdf) to never use Comic Sans outside of those two cases.
 
 </exercise>
 

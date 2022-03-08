@@ -11,7 +11,7 @@ air  =  df['air'] # All India Rainfall
 # plot
 fig, ax = plt.subplots(2,1,figsize=(10, 6),sharex = True)
 fig.patch.set_facecolor('white') # necessary on Gatsby for some reason; redundant otherwise
-csfont = {'fontname':'Comic Sans MS'}
+csfont = {'fontname':'Helvetica'}
 ax[0].plot(t,nino3)
 ax[0].set_ylabel('NINO3 SST (K)',**csfont)
 ax[0].set_title('NINO3 and All India Rainfall',fontdict={'fontweight':'bold','fontsize':18})
