@@ -2,7 +2,7 @@
 title: 'Module 5: Introduction to Matplotlib'
 description:
   'This module will teach you how to use Matplotlib, a comprehensive library for creating static, animated, and
-  interactive visualizations in Python. The module is structured around the visualization of two contemporaneous monthly timeseries: the NINO3 SST dataset and All India Rainfall.'
+  interactive visualizations in Python. The module is structured around the visualization of two contemporaneous monthly timeseries: the NINO3 SST dataset and All India Rainfall, to explore potential connections.'
 prev: /module4
 next: /module6
 type: chapter
@@ -39,7 +39,7 @@ Notice that this call to the `subplots` method created:
 
 For such a simple chart, the distinction is immaterial, but it will soon be important to distinguish between figure and axes, particularly when we create figures with multiple subplots.
 
-If you wanted to change the size of the figure to 10 by 6 in, say, you would replace the first line of the figure by:
+If you wanted to change the size of the figure to 10 by 6 inches, say, you would replace the first line of the figure by:
 ```
 fig, ax = plt.subplots(figsize=(10, 6))
 ```
