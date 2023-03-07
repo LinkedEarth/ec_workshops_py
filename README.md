@@ -1,16 +1,18 @@
-# EarthCube Workshops
+# PaleoHack Introductory Materials
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LinkedEarth/ec_workshops_py/binder)
 
 
 ## Objective
 
-Set up online workshops regarding Data Sciences tools focused on the Earth Sciences for TACC Hackathons. These modules are currently deployed at [site](https://linked.earth/ec_workshops_py/)
+Set up online asynchronous materials to support [PaleoHack](http://linked.earth/paleoHackathon/). The materials are deployerd [here](https://linked.earth/ec_workshops_py/)
 
 ## Contributors
 
 This project is an open project, and contributions are welcome from any individual.  All contributors to this project are bound by a [code of conduct](CODE_OF_CONDUCT.md).  Please review and follow this code of conduct as part of your contribution.
 
+* [Deborah Khider](khider.github.io) [![orcid](https://img.shields.io/badge/orcid-0000--0001--7501--8430-brightgreen.svg)](https://orcid.org/0000-0001-7501-8430)
+* [Julien Emile-Geay] (http://climdyn.usc.edu) [![orcid](https://img.shields.io/badge/orcid-0000--0001--5920--4751-brightgreen.svg)](https://orcid.org/0000-0001-5920-4751)
 * [Socorro Dominguez Vidana](https://sedv8808.github.io/) [![orcid](https://img.shields.io/badge/orcid-0000--0002--7926--4935-brightgreen.svg)](https://orcid.org/0000-0002-7926-4935)
 * [Simon Goring](http://www.goring.org/) [![orcid](https://img.shields.io/badge/orcid-0000--0002--2700--4605-brightgreen.svg)](https://orcid.org/0000-0002-2700-4605)
 
