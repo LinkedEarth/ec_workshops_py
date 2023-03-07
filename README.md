@@ -1,7 +1,7 @@
 # PaleoHack Introductory Materials
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LinkedEarth/ec_workshops_py/binder)
-
+[![DOI](https://zenodo.org/badge/461037174.svg)](https://zenodo.org/badge/latestdoi/461037174)
 
 ## Objective
 
